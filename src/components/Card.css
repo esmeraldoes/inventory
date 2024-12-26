@@ -1,0 +1,134 @@
+.card-container {
+    width: 980px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    background: #d4edda;
+    border: 1px solid #08c552;
+    padding: 16px;
+    box-sizing: border-box;
+    
+
+
+
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+    margin-top: 20px; /* Spacing above each card */
+
+    gap: 16px;
+  }
+  
+
+  .notifications-header {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    /* text-decoration: underline; */
+    text-decoration-skip-ink: none;
+    /* background: #101540; */
+    color: #20065f;
+    width: 225px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .card-icon {
+    width: 49px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .card-header {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #155724;
+    line-height: 19.36px;
+  }
+  
+  .stock-added-text {
+    background: #155724;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+ .detail-label-stock{
+    margin-right: 10px;
+    font-weight: 500;
+
+  }
+  
+  .card-details {
+    display: flex;
+    /* gap: 12px;  */
+    gap: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1a932e;
+    line-height: 16.94px;
+  }
+  
+  .detail-item {
+    display: flex;
+    align-items: center;
+    
+    /* gap: 4px; */
+    /* gap: 6px; */
+  }
+  .detail-item-pipe {
+    /* display: flex;
+    align-items: center; */
+    
+    gap: 4px;
+    /* gap: 6px; */
+  }
+  
+  .detail-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 70px;
+  }
+  
+  .card-description {
+    width: 345.26px;
+    font-size: 14px;
+    color: #155724;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    margin-right: 100px; 
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    color: #155724;
+  }
+  
+
+
+
+
+
+
+
+
+
+
